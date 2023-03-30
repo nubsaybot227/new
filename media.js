@@ -26,7 +26,7 @@ wavesurfer.init({
 
 
 //загружаем нужную песню
-wavesurfer.load("sound.mp3");
+wavesurfer.load("Vitas_-_7_JElement_48255457.mp3");
 
 //play and pause a player
 playPause.addEventListener("click", function (e) {
