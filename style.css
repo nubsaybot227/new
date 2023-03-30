@@ -176,3 +176,48 @@ header{
     margin-top: 61px;
 }
 
+@media(max-width:1120px)
+{
+    .container{padding: 0 20px;}
+}
+
+@media(max-width:992px)
+{
+    .header-info-block{
+        flex-direction: column;
+    }
+    .card-about{
+        margin-top: 60px;
+        align-self: flex-end;
+    }
+    .audio-container{order: -1;}
+}
+@media(max-width:756px)
+{
+
+}
+@media(max-width:578px)
+{
+    .navigation-holder{
+        display: none;
+    }
+    .join{
+        display: none;
+    }
+    .header-title-text{
+        font-size: 60px;
+    }
+    .mob-btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 60px;
+    }
+    .audio-holder, .card-about {width: 100%;}
+    .audio-block img {display: none;}
+    .control{height: 48px;}
+}
+
+.mob-btn{
+    display: none;
+}
