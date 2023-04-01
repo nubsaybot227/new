@@ -175,7 +175,9 @@ header{
     display: flex;
     margin-top: 61px;
 }
-
+.mob-button{
+    display: none;
+}
 @media(max-width:1120px)
 {
     .container{padding: 0 20px;}
@@ -207,7 +209,7 @@ header{
     .header-title-text{
         font-size: 60px;
     }
-    .mob-btn{
+    .mob-button{
         display: inline-block;
         text-decoration: none;
         color: #fff;
@@ -218,6 +220,3 @@ header{
     .control{height: 48px;}
 }
 
-.mob-btn{
-    display: none;
-}
